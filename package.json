@@ -1,0 +1,19 @@
+{
+  "name": "iitm-openai",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "start": "node ./src/index.mjs",
+    "start:iitm": "node --loader import-in-the-middle/hook.mjs ./src/index.mjs"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "import-in-the-middle": "1.8.1",
+    "openai": "^4.51.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
